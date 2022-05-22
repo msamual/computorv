@@ -1,0 +1,6 @@
+/Users/msamual/Projects/computorv2/computorv2/bin/Debug/computorv2.exe
+/Users/msamual/Projects/computorv2/computorv2/bin/Debug/computorv2.pdb
+/Users/msamual/Projects/computorv2/computorv2/obj/Debug/computorv2.csproj.AssemblyReference.cache
+/Users/msamual/Projects/computorv2/computorv2/obj/Debug/computorv2.csproj.CoreCompileInputs.cache
+/Users/msamual/Projects/computorv2/computorv2/obj/Debug/computorv2.exe
+/Users/msamual/Projects/computorv2/computorv2/obj/Debug/computorv2.pdb

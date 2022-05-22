@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "computorv2", "computorv2\computorv2.csproj", "{673652C2-C041-4E3B-8B23-3887BD4CA521}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{673652C2-C041-4E3B-8B23-3887BD4CA521}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{673652C2-C041-4E3B-8B23-3887BD4CA521}.Debug|anycpu.Build.0 = Debug|anycpu
+		{673652C2-C041-4E3B-8B23-3887BD4CA521}.Release|anycpu.ActiveCfg = Release|anycpu
+		{673652C2-C041-4E3B-8B23-3887BD4CA521}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2360B74E-709A-4FEA-8315-B7A8AABD7986}
+	EndGlobalSection
+EndGlobal
