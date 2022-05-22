@@ -7,7 +7,7 @@ namespace computorv2
 		public static void Main(string[] args)
 		{
 			Complex c1 = new Complex(10, 5), c2 = new Complex(20);
-			Console.WriteLine();
+			Console.WriteLine(c1 + c2);
 		}
 	}
 }
