@@ -1,0 +1,3 @@
+/Users/msamual/Documents/computorv/computorv2/bin/Release/computorv2.exe
+/Users/msamual/Documents/computorv/computorv2/obj/Release/computorv2.csproj.CoreCompileInputs.cache
+/Users/msamual/Documents/computorv/computorv2/obj/Release/computorv2.exe
