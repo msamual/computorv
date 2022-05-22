@@ -1,4 +1,6 @@
 ﻿using System;
+using static computorv2.MathUtils;
+
 namespace computorv2
 {
 	public class Complex
@@ -26,14 +28,34 @@ namespace computorv2
 		{
 			return new Complex(lhs.Real + rhs.Real, lhs.Imag + rhs.Imag);
 		}
-			
+
+		public static Complex operator -(Complex left, Complex rigth)
+		{
+			return new Complex(left.Real - rigth.Real, left.Imag - rigth.Imag);
+		}
+
+		public static Complex operator *(Complex left, Complex right)
+		{
+			double a = (left.Real * right.Real) - (left.Imag * right.Imag);
+			double b = (left.Real * right.Imag) + (left.Imag * right.Real);
+			return new Complex(a, b);
+		}
+
+		public static Complex operator /(Complex left, Complex right)
+		{
+			double den = Pow2(right.Real) + Pow2(right.Imag);
+			double a = ((left.Real * right.Real) + (left.Imag * right.Imag)) / den;
+			double b = ((right.Real * left.Imag) - (left.Real * right.Imag)) / den;
+			return new Complex(a, b);
+		}
+		
 		public override string ToString()
 		{
 			string res = Real.ToString();
 			if (this.Imag != 0)
 			{
 				res += this.Imag > 0 ? " + " : " - ";
-				res += MathUtils.Abs(this.Imag).ToString() + "i"; 
+				res += Abs(this.Imag).ToString() + "i"; 
 			}
 			return res;
 		}

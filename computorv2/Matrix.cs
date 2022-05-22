@@ -8,6 +8,14 @@ namespace computorv2
 		public List<List<double>> M { get; set; }
 		public int sizeX { get; private set; }
 		public int sizeY { get; private set; }
+		
+		public override this[int x, int y]
+		{
+			public get
+			{
+				this
+			}
+		}
 
 		public Matrix()
 		{

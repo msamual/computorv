@@ -8,5 +8,10 @@ namespace computorv2
 			return n < 0 ? -n : n;
 		}
 
+		public static double Pow2(double n)
+		{
+			return n * n;
+		}
+
 	}
 }
